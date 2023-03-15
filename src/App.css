@@ -1,0 +1,45 @@
+.cabecera {
+  background-color: rgb(46, 96, 139);
+  color: white;
+}
+
+fieldset {
+  margin: 0 auto;
+  width: 300px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+table,
+th,
+tr,
+td {
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.principal {
+  position: relative;
+}
+
+.capture {
+  z-index: 1;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.buttons-container {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+form label {
+  margin-right: 5px;
+}
